@@ -13,5 +13,9 @@ library(tidyverse)
 library(ggplot2)
 library(readxl)
 
+#view data
+
+str(protein)
+
 ```
 
