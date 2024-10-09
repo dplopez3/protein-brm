@@ -19,3 +19,18 @@ str(protein)
 
 ```
 
+#EDA all treatments
+
+```{r}
+#all treatments
+
+ggplot(protein, aes(x= temp, y= protein_mg_cm2, fill= salinity)) +
+      geom_boxplot() +
+      #scale_fill_manual(values = c("#EE6363","#B3EE3A","#EE4363")) +
+      facet_wrap(species~gulf, scales = "fixed")+
+      theme(legend.position = "none") +
+      theme(panel.border = element_rect(color = "black", fill = NA)) +
+      theme_classic()+
+      theme(text = element_text(size = 14))
+```
+
