@@ -1,0 +1,17 @@
+---
+title: "protein-brm"
+author: "DPL"
+date: "2024-10-09"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+
+#load libraries
+
+library(tidyverse)
+library(ggplot2)
+library(readxl)
+
+```
+
